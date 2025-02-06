@@ -15,7 +15,7 @@ name                     : &name "Mac Walker"
 description              : &description "this is a personal description hiiiii"
 url                      : "https://macaswalker.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "macaswalker/mac.github.io"
+repository               : "macaswalker/macaswalker.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Mac Walker"
   pronouns         : he/him # example: "she/her"  
-  bio              : "MPhil Biotech student the University of Cambridge, thinking about Transformers for bio"
+  bio              : "Transformers for multi-modal, hierarchical biological data"
   location         : "Cambridge, UK"
   employer         : "University of Cambridge"
   uri              : # URL
