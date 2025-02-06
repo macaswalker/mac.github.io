@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+🛠️ This website is currently under construction :) 🛠️
+
 🎓 MPhil Biotechnology student at the University of Cambridge, researching AI for drug discovery
 
 🧑‍🎓️ BSc Mathematics from the University of Edinburgh, where I researched geometry-preserving Gaussian Processes
