@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration of biological data for transformers](/images/transformer_image.jpg)
-
 🎓 MPhil Biotechnology student at the University of Cambridge, researching AI for drug discovery
 
 🧑‍🎓️ BSc Mathematics from the University of Edinburgh, where I researched geometry-preserving Gaussian Processes
@@ -16,6 +14,8 @@ redirect_from:
 🐝 Previously: Opteran Technologies, producing a spiking neural network model for computer vision 
 
 🚀 Previously: Product and agile software development team at Wood Mackenzie
+
+![Illustration of biological data for transformers](/images/transformer_image.jpg)
 
 This Website
 ======
