@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Mac Walker"
+title                    : "Mac's Homepage"
 title_separator          : "-"
 name                     : &name "Mac Walker"
 description              : &description "this is a personal description hiiiii"
@@ -25,8 +25,8 @@ author:
   avatar           : "profile_photo.jpeg"
   name             : "Mac Walker"
   pronouns         : he/him # example: "she/her"  
-  bio              : "Transformers for multi-modal, hierarchical biological data"
-  location         : "Cambridge, UK"
+  bio              : "ML + Bio + AI Safety"
+  location         : "Sheffield, UK"
   employer         : "University of Cambridge"
   uri              : # URL
   email            : "macskyewalker@gmail.com" 
