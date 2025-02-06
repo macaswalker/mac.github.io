@@ -4,15 +4,9 @@
 # links. Removing a link prevents it from showing in the header, but does not
 # prevent it from being included in the site.
 
-main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+main:   
+  - title: "CV"
+    url: /files/Mac_Walker_CV_February.pdf
     
   - title: "Portfolio"
     url: /portfolio/
@@ -20,8 +14,4 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+
