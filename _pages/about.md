@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration of biological data for transformers](/images/milner_people.jpg){: .align-right width ="300px"}
-
 🛠️ This website is currently under construction :) 🛠️
 
 🎓 MPhil Biotechnology student at the University of Cambridge, researching AI for drug discovery
