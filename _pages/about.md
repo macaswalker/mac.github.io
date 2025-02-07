@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Art from a comic - can't remember who it's by !](/images/art_mother.jpg){: .align-right width="300px"}
+![me at Mt Kinabalu](/images/kinabalu.jpeg){: .align-right width="300px"}
 
 🛠️ This website is currently under construction :) 🛠️
 
