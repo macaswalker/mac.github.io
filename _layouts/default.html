@@ -8,6 +8,20 @@ layout: compress
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
+
+    <!-- (A) Configure MathJax to parse single-dollar inline math -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+          displayMath: [ ['$$','$$'], ['\\[','\\]'] ]
+        }
+      };
+    </script>
+
+    <!-- (B) Load MathJax from the CDN (MathJax 3.x) -->
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
     {% include head/custom.html %}
   </head>
 
