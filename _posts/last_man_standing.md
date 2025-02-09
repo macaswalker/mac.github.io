@@ -12,6 +12,36 @@ I am currently playing Last Man Standing with my group of friends. I have though
 
 In my exploration around this topic, I found [this] (https://www.danialdervovic.com/2018/05/13/last-man-standing.html). This is a beautiful analysis and one I am super impressed by. There is, however, one main gripe I have with this treatment. The assumption of this model is that we should want to stay in _as long as possible_, as opposed to staying in _for the longest_. 
 
+The Setup
+=====
+
+## Mathematical Model Setup
+
+1. **Teams**  
+   - Let there be \(n\) teams in the league, labeled \(\{1, 2, \dots, n\}\).
+   - Each team \(j\) plays a match in each “week” \(i\).
+
+2. **Players**  
+   - Let there be \(M\) players in the game.
+   - Each player pays an entry fee of \(x\) and aims to be the “last man standing.”
+
+3. **States**  
+   - After each week \(i\), a player is either “alive” (if their chosen team that week won) or “eliminated” (if that team drew or lost).
+   - A minimal representation of the **state** from an individual player’s perspective includes:
+     - The current week index \(i\).
+     - The set of teams this player has **already used** in previous weeks.
+
+4. **Actions**  
+   - At the beginning of each week \(i\), every **surviving** player must **choose** exactly one team \(j\) that they have not chosen before.
+   - If that chosen team \(j\) **wins** its match in week \(i\), the player survives to week \(i+1\). Otherwise, the player is eliminated.
+
+5. **Winning Probabilities**  
+   - Let \(p_j^{(i)}\) denote the probability that **team** \(j\) wins its match in **week** \(i\).
+   - Under a simplifying (though not perfectly realistic) **independence assumption**, the chance that a sequence of choices \(\sigma(1), \sigma(2), \dots\) all win is the product:
+     \[
+       \prod_{i} p_{\sigma(i)}^{(i)},
+     \]
+     where \(\sigma(i)\) is the chosen team in week \(i\).
 
 
 Headings are cool
