@@ -22,7 +22,7 @@ repository               : "macaswalker/macaswalker.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_photo.jpeg"
+  avatar           : "github_profile.jpeg"
   name             : "Mac Walker"
   pronouns         : he/him # example: "she/her"  
   bio              : "(ML + Bio) + AI Safety"
@@ -202,6 +202,7 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
+  math_engine: mathjax           # Added Math Engine
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
